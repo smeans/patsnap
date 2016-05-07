@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>PatSnap: home</title>
+  <meta name="description" content="Patent relationship browser.">
+  <meta name="author" content="Scott Means">
+
+  <link rel="stylesheet" href="css/style.css?v=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Rubik:400,300' rel='stylesheet' type='text/css'>
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="main">
+    <svg width="960" height="500">
+      <defs>
+          <marker id="markerCircle" markerWidth="8" markerHeight="8" refX="5" refY="5">
+              <circle cx="5" cy="5" r="10" style="stroke: none; fill:#000000;"/>
+          </marker>
+
+          <marker id="markerArrow" markerWidth="13" markerHeight="13" refX="2" refY="6"
+                 orient="auto">
+              <path d="M2,2 L2,11 L10,6 L2,2" style="fill: #000000;" />
+          </marker>
+      </defs>
+    </svg>
+  </div>
+  <div class="info">
+    <h1><a class="title" target="patent"></a><a class="pdf_link hidden"><img src="https://mimecons.com/40/application/pdf"/></a></h1>
+    <div class="form">
+      <div><label>Legal status</label><span></span></div>
+      <div><label>Application number</label><span></span></div>
+      <div><label>Inventor</label><span></span></div>
+      <div><label>Current Assignee</label><span></span></div>
+      <div><label>Original Assignee</label><span></span></div>
+      <div><label>Priority date</label><span></span></div>
+      <div><label>Filing date</label><span></span></div>
+      <div><label>Publication date</label><span></span></div>
+      <div><label>Grant date</label><span></span></div>
+    </div>
+  </div>
+  <script src="js/jquery-2.2.3.min.js"></script>
+  <script src="js/d3/d3.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

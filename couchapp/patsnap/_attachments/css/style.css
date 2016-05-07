@@ -1,0 +1,79 @@
+/*
+ * color scheme: https://coolors.co/9f84bd-edae49-d8f1a0-ff521b-86bbd8
+ */
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  fill: none;
+  stroke: #bbb;
+}
+
+.i {
+  display: none;
+}
+
+.main {
+  display: flex;
+}
+
+#detail {
+  width: 600px;
+}
+
+.info {
+  position: absolute;
+  margin: 0;
+  padding: 5pt;
+  width: 100%;
+  height: 25%;
+  left: 0;
+  bottom: 0;
+  background-color: #86BBD8;
+  color: #fff;
+}
+
+.info h1 {
+  margin: 0;
+  padding: 0;
+}
+
+a.title {
+  color: #fff;
+}
+
+.info label {
+  display: inline-block;
+  color: #D8F1A0;
+  width: 10em;
+  text-align: right;
+  margin-right: 5pt;
+}
+
+.form label::after {
+  content: ":";
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form>div {
+  min-width: 33.3%;
+}
+
+.focus {
+  fill: #EDAE49;
+}
